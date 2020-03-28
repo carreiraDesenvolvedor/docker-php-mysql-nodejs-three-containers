@@ -1,0 +1,24 @@
+{
+  "name": "docker-api",
+  "version": "1.0.0",
+  "description": "Just to study",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "Docker",
+    "NodeJs",
+    "MySQL"
+  ],
+  "author": "Jonathan Melo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
